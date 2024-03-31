@@ -1,0 +1,18 @@
+section {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(30, 26, 26);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 1rem;
+  background-color: blueviolet;
+  border: none;
+}
