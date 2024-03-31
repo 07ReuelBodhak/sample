@@ -14,7 +14,7 @@ const Login = () => {
     setPass("");
     if (username == "admin" && pass == "admin123") {
       sessionStorage.setItem("isAdmin", "true");
-      useNavigate("/home");
+      navigate("/home");
     } else {
       alert("incorrect password");
     }
